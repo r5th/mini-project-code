@@ -1,0 +1,10 @@
+name: email-check
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 12345678afif@gmail.com
+        run: echo "Hello, world!"
